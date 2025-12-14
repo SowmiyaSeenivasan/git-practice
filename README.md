@@ -170,67 +170,67 @@ git stash
 - Reapply stashed changes.
 git stash apply
 
-### git cherry-pick
+### 33. git cherry-pick
 - Apply a specific commit from another branch.
 
 git cherry-pick <commit-id>
 
-### git revert
+### 34.  git revert
 - Undo a commit safely .
 
 git revert <commit-id>
 
-### git reset --soft
+### 35. git reset --soft
 -Undo commit, keep changes staged.
 
 git reset --soft HEAD~1
 
-### git reset --mixed 
+### 36. git reset --mixed 
 - Undo commit, keep changes unstaged.
 
 git reset HEAD~1
 
-### git reset --hard
+### 37. git reset --hard
 - Remove commit + changes permanently.
 
 git reset --hard HEAD~1
 
-### git blame
+### 38. git blame
 - Shows who changed each line.
 
 git blame file.txt
 
-### git grep
+### 39. git grep
 - Search text inside repo.
 
 git grep "login"
 
-### git submodule add
+### 40. git submodule add
 - Add another repo inside your repo.
 
 git submodule add <repo-url>
 
-### git submodule update
+### 41. git submodule update
 - Update submodule code.
 
 git submodule update --init --recursive
 
-### git archive
+### 42. git archive
 - Create zip/tar of project.
 
 git archive --format=zip HEAD > project.zip
 
-### git verify-commit
+### 43. git verify-commit
 - Verify signed commit.
 
 git verify-commit <commit-id>
 
-### git fsck
+### 44. git fsck
 - Check repository integrity.
 
 git fsck
 
-### git reflog
+### 45. git reflog
 - Shows all HEAD movements.
 
 git reflog
